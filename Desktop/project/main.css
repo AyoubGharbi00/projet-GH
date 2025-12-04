@@ -5,14 +5,19 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   background: #f3f3f9;
   padding: 30px;
 }
+
+/* ---------- GLOBAL TITLES ---------- */
 h1, h2 {
   color: #333;
   margin-bottom: 15px;
 }
+
+/* ---------- SECTIONS ---------- */
 section {
   background: white;
   padding: 20px;
@@ -20,6 +25,8 @@ section {
   border-radius: 14px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
+
+/* ---------- INPUTS ---------- */
 input[type="text"] {
   padding: 12px;
   width: 260px;
@@ -33,6 +40,8 @@ input[type="text"] {
 input[type="text"]:focus {
   border-color: #6a5af9;
 }
+
+/* ---------- BUTTONS GENERAL ---------- */
 button {
   padding: 12px 20px;
   font-size: 16px;
@@ -54,6 +63,7 @@ button:active {
   transform: scale(0.95);
 }
 
+/* ---------- ADD BOOK SPECIAL BUTTON ---------- */
 .add-book-section button {
   background: linear-gradient(135deg, #6a5af9, #836fff);
   box-shadow: 0 4px 10px rgba(100, 80, 255, 0.4);
@@ -63,6 +73,8 @@ button:active {
   background: linear-gradient(135deg, #7d6dff, #9a87ff);
   box-shadow: 0 8px 20px rgba(120, 100, 255, 0.6);
 }
+
+/* ---------- BOOK LISTS ---------- */
 ul {
   list-style: none;
   margin-top: 15px;
